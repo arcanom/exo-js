@@ -9,10 +9,10 @@ const  tauxInteret = prompt("Votre taux d'interet ? ");
 var prompt = require("prompt-sync")();
 const  duree = prompt("Votre durée ? ");
 
-let montantInteret ;
-montantInteret =   Math.round(Math.pow(tauxInteret,duree));
-console.log(`Votre montant d'intéret s'élévera de  ${montantInteret}`) 
+let pourcent =  tauxInteret/100
+console.log(pourcent)
+console.log(Math.pow(1+pourcent,duree))
 let capitalFinal;
-capitalFinal = parseInt(capital) + montantInteret;
+capitalFinal = Math.round(parseInt(capital) * (Math.pow(1+pourcent,duree)));
 console.log(`Votre capital final s'éleve à ${capitalFinal}`)
 //#endregion
