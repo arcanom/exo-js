@@ -3,7 +3,7 @@
 var prompt = require("prompt-sync")();
 const nom = prompt("Votre nom ? ");
 
-var prompt = require("prompt-sync")();
+
 const prenom = prompt("Votre prenom ? ");
 
 console.log(`Vous avez saisi: ${nom}`)
