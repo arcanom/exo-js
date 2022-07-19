@@ -1,5 +1,5 @@
 let i = 1;
-plusGrand = 0;
+let plusGrand = 0;
 while(i <= 20){
     var prompt = require("prompt-sync")();
     let nombre = prompt(`Votre nombre ${i} `)

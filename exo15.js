@@ -17,7 +17,7 @@ paiement = prompt("Combien donnez vous? ")
 let rendu = somme - paiement
 if(rendu > 0){
     console.log("vous n'avez pas saisi assez veuillez revoir votre paiement? ")
-
+    
 } else if(rendu <0) {
  if(rendu % 10 === 0){
     dix = (rendu*-1) / 10
@@ -36,7 +36,7 @@ if(rendu > 0){
             console.log("Billet de  10€")
         }
         for(let i=0; i<cinq;i++ ){
-            console.log("Billet de  €")
+            console.log("Billet de  5 €")
         }
         //console.log(`Voila votre monnaie ${dix} billet(s) de 10€ et ${cinq} billet(s) de 5€ `)
     } else{
@@ -46,7 +46,7 @@ if(rendu > 0){
             console.log("Billet de  10€")
         }
         for(let i=0; i<cinq;i++ ){
-            console.log("Billet de  €")
+            console.log("Billet de 5 €")
         }
         for(let i=0;i<restecinq;i++){
             console.log("Pièce de 1€")

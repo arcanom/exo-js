@@ -107,3 +107,37 @@ let a = 10;
 do{
     console.log("a = " + a++)
 }while(a<10);
+
+let tableau = []
+let tabData = [1,2,4,"toto",34]
+
+for (let index = 0; index < tabData.length; index++) {
+    console.log(tabData[index]);
+ 
+}
+
+tabData.push("titi");
+
+for (let index = 0; index < tabData.length; index++) {
+    console.log(tabData[index]);
+ 
+}
+
+tabData.unshift("lolo");
+for( key in tabData){
+    console.log(key)
+}
+
+for (const item of tabData){
+    console.log(item)
+}
+
+tabData.splice(3,1)
+
+const fonc = function(nom){
+    return nom
+}
+
+var val = fonc("popo")
+
+console.log(val);
