@@ -21,7 +21,7 @@ if(rendu > 0){
 } else if(rendu <0) {
  if(rendu % 10 === 0){
     dix = (rendu*-1) / 10
-    console.log(`Voila votre monnaie ${dix} billets de 10€`)
+    console.log(`Voila votre monnaie ${dix} billet(s) de 10€`)
  } else {
     let restedix = rendu % 10 *-1
 
@@ -29,7 +29,7 @@ if(rendu > 0){
 
     if(restedix % 5 === 0 ){
         cinq =restedix / 5
-        console.log(`Voila votre monnaie ${dix} billets de 10€ et ${cinq} billets de 5€ `)
+        console.log(`Voila votre monnaie ${dix} billet(s) de 10€ et ${cinq} billet(s) de 5€ `)
     } else{
         let restecinq = restedix % 5 
         cinq = (restedix-restecinq) / 5
