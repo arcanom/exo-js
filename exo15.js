@@ -21,7 +21,10 @@ if(rendu > 0){
 } else if(rendu <0) {
  if(rendu % 10 === 0){
     dix = (rendu*-1) / 10
-    console.log(`Voila votre monnaie ${dix} billet(s) de 10€`)
+    for(let i=0; i<dix;i++ ){
+        console.log("Billet de  10€")
+    }
+   // console.log(`Voila votre monnaie ${dix} billet(s) de 10€`)
  } else {
     let restedix = rendu % 10 *-1
 
@@ -29,11 +32,26 @@ if(rendu > 0){
 
     if(restedix % 5 === 0 ){
         cinq =restedix / 5
-        console.log(`Voila votre monnaie ${dix} billet(s) de 10€ et ${cinq} billet(s) de 5€ `)
+        for(let i=0; i<dix;i++ ){
+            console.log("Billet de  10€")
+        }
+        for(let i=0; i<cinq;i++ ){
+            console.log("Billet de  €")
+        }
+        //console.log(`Voila votre monnaie ${dix} billet(s) de 10€ et ${cinq} billet(s) de 5€ `)
     } else{
         let restecinq = restedix % 5 
         cinq = (restedix-restecinq) / 5
-        console.log(`Voila votre monnaie ${dix} billet(s) de 10€, ${cinq} billet(s) de 5€ et ${restecinq} piece(s) de 1€ `)
+        for(let i=0; i<dix;i++ ){
+            console.log("Billet de  10€")
+        }
+        for(let i=0; i<cinq;i++ ){
+            console.log("Billet de  €")
+        }
+        for(let i=0;i<restecinq;i++){
+            console.log("Pièce de 1€")
+        }
+        //console.log(`Voila votre monnaie ${dix} billet(s) de 10€, ${cinq} billet(s) de 5€ et ${restecinq} piece(s) de 1€ `)
     }
  }
 } else {
