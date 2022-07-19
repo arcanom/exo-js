@@ -6,7 +6,7 @@ let indemmite = 0;
 if (anciennete >= 1 && anciennete <= 10  ){
     indemmite= indemmite + parseInt(salaire)/2;
 } else if(anciennete>10){
-    indemmite = indemmite + parseInt(salaire)
+    indemmite = indemmite + parseInt(salaire)*anciennete 
     
 } else {
     indemmite=0
