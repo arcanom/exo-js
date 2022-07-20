@@ -87,57 +87,57 @@
 // console.log(`je suis ${demo}`);
 
 
-for (let index = 0; index < 10; index++) {
-    console.log(index)
+// for (let index = 0; index < 10; index++) {
+//     console.log(index)
     
-}
+// }
 
-for (let index = 10; index > 0; index--) {
-    console.log(index)
+// for (let index = 10; index > 0; index--) {
+//     console.log(index)
     
-}
+// }
 
-let i=1
-while (i<10) {
-    console.log(i)
-    i+=2
-}
+// let i=1
+// while (i<10) {
+//     console.log(i)
+//     i+=2
+// }
 
-let a = 10;
-do{
-    console.log("a = " + a++)
-}while(a<10);
+// let a = 10;
+// do{
+//     console.log("a = " + a++)
+// }while(a<10);
 
-let tableau = []
-let tabData = [1,2,4,"toto",34]
+// let tableau = []
+// let tabData = [1,2,4,"toto",34]
 
-for (let index = 0; index < tabData.length; index++) {
-    console.log(tabData[index]);
+// for (let index = 0; index < tabData.length; index++) {
+//     console.log(tabData[index]);
  
-}
+// }
 
-tabData.push("titi");
+// tabData.push("titi");
 
-for (let index = 0; index < tabData.length; index++) {
-    console.log(tabData[index]);
+// for (let index = 0; index < tabData.length; index++) {
+//     console.log(tabData[index]);
  
-}
+// }
 
-tabData.unshift("lolo");
-for( key in tabData){
-    console.log(key)
-}
+// tabData.unshift("lolo");
+// for( key in tabData){
+//     console.log(key)
+// }
 
-for (const item of tabData){
-    console.log(item)
-}
+// for (const item of tabData){
+//     console.log(item)
+// }
 
-tabData.splice(3,1)
+// tabData.splice(3,1)
 
-const fonc = function(nom){
-    return nom
-}
+// const fonc = function(nom){
+//     return nom
+// }
 
-var val = fonc("popo")
+// var val = fonc("popo")
 
-console.log(val);
+// console.log(val);

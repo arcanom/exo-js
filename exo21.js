@@ -1,8 +1,9 @@
 let tab = [45,55,65,75,35]
 let croissant = true
-for(let i =0;i<tab.length;i++){
+for(let i =0;i<tab.length-1;i++){
     if(tab[i] > tab[i+1]){
         croissant = false
+        break;
     }
 }
 
