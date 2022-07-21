@@ -7,7 +7,7 @@ function calculer(event){
     ecran.onclick = function(event){
         let val = event.target.value;
         
-        if(val =="11"){
+        if(val =="AC"){
             GetZero();
         }
         else if(val == "="){
