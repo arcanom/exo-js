@@ -41,3 +41,10 @@ reponse.textContent ="Essayez de le deviner en proposant ci-dessous"
 reponse.style.color ="white"
 nbCompteur.textContent = compteur; 
 
+var propo = document.getElementById("envoiReponse")
+
+propo.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        envoiReponse(propo)
+    }
+   });
