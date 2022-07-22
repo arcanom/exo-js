@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(51,54,61);
+}
+
+p {
+    color: rgb(69,195,152);
+    font-size: 25px;
+}
+
+
+
+.container{
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+#result {
+    font-size: 75px;
+    color: rgb(69,195,152);
+}
+
